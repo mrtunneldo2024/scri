@@ -6,11 +6,11 @@ MYIP=$(wget -qO- icanhazip.com);
 echo "Script By geo"
 clear
 apt install jq curl -y
-DOMAIN=daorakle.website
+DOMAIN=mrtunnelvpn.xyz
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c4)
-SUB_DOMAIN=${sub}.daorakle.website
-CF_ID=chucself1518@gmail.com
-CF_KEY=6c70c47ad529390c616f720e95ed1140e842b
+SUB_DOMAIN=${sub}.mrtunnelvpn.xyz
+CF_ID=mahmoud.rabiee.elsayed@gmail.com
+CF_KEY=2111d694773708c0e603c346ef9c97fd4d83c
 set -euo pipefail
 IP=$(wget -qO- icanhazip.com);
 echo "Updating DNS for ${SUB_DOMAIN}..."
